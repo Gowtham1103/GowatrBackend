@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongo:a6ah6acd15D4Bah5a6dEbBChG64CHe3a@roundhouse.proxy.rlwy.net:26239/
+      database: GowatrDatabase
