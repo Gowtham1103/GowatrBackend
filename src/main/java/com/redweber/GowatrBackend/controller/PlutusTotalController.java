@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/pl.tot")
+@CrossOrigin("*")
 public class PlutusTotalController {
     @Autowired
     private PlutusTotalService plutusTotalService;

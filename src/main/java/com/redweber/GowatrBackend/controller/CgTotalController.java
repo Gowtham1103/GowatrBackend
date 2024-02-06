@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/cg.tot")
+@CrossOrigin("*")
 public class CgTotalController {
     @Autowired
     private CgTotalService cgTotalService;
